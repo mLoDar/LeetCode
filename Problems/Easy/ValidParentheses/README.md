@@ -2,7 +2,7 @@
 <br>
 
 <h1 align="center">
-  Valid Parentheses
+  20. Valid Parentheses
 </h1>
 
 Given a string `s` containing just the characters `'('`, `')'`, `'{'`, `'}'`, `'['` and `']'`,

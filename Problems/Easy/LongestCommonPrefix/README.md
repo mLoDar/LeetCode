@@ -2,7 +2,7 @@
 <br>
 
 <h1 align="center">
-  Longest Common Prefix
+  14. Longest Common Prefix
 </h1>
 
 Write a function to find the longest common prefix string amongst an array of strings.

@@ -2,7 +2,7 @@
 <br>
 
 <h1 align="center">
-  Palindrome Number
+  9. Palindrome Number
 </h1>
 
 Given an integer `x`, return `true` if `x` is a [palindrome](https://en.wikipedia.org/wiki/Palindrome), and `false` otherwise.
