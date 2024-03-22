@@ -1,4 +1,6 @@
-﻿namespace LeetCode
+﻿using LeetCode.Problems.Easy.PalindromeNumber;
+
+namespace LeetCode
 {
     internal class MainEntry
     {
