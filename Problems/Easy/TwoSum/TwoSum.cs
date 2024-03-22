@@ -1,4 +1,4 @@
-﻿namespace LeetCode.Problems.Easy
+﻿namespace LeetCode.Problems.Easy.TwoSum
 {
     internal class TwoSum
     {
