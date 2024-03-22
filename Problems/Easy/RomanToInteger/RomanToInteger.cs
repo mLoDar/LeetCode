@@ -2,7 +2,7 @@
 {
     internal class RomanToInteger
     {
-        internal static int Solution1(string s)
+        internal static int Solution(string s)
         {
             int finalNumber = 0;
 
@@ -25,14 +25,11 @@
 
             for (int i = 0; i < s.Length; i++)
             {
-                if (i + 1 < s.Length)
+                if (i + 1 < s.Length && symbolValues.ContainsKey(s.Substring(i, 2)))
                 {
-                    if (symbolValues.ContainsKey(s.Substring(i, 2)))
-                    {
-                        finalNumber += symbolValues[s.Substring(i, 2)];
-                        i++;
-                        continue;
-                    }
+                    finalNumber += symbolValues[s.Substring(i, 2)];
+                    i++;
+                    continue;
                 }
 
                 finalNumber += symbolValues[s.Substring(i, 1)];
